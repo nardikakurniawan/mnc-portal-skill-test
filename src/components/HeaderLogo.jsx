@@ -22,7 +22,7 @@ const HeaderLogo = () => {
 
       <div className="w-[60%] hidden sm:flex">
         <img
-          src="/src/assets/images/iklan-1.JPG"
+          src="/assets/images/iklan-1.JPG"
           alt="iklan"
           className="w-full object-contain"
         />
