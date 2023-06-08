@@ -10,7 +10,7 @@ const HeaderLogo = () => {
 
       <div className="w-[60%] sm:w-[28%]">
         <img
-          src="/src/assets/images/logo.png"
+          src="/assets/images/logo.png"
           alt="logo sportstars"
           className="w-full object-contain"
         />

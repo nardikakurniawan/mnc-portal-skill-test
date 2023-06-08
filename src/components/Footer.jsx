@@ -106,7 +106,7 @@ const Footer = () => {
             <div className="sm:col-span-2">
               <div className="w-[60%] sm:w-[50%] mb-4 sm:mb-10 mx-auto sm:mx-0">
                 <img
-                  src="/src/assets/images/logo-white.png"
+                  src="/assets/images/logo-white.png"
                   alt="logo sportstars"
                   className="w-full object-contain"
                 />

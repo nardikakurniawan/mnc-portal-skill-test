@@ -59,7 +59,7 @@ const Thumbnail = () => {
             <div className="col-span-2">
               <div className="relative cursor-pointer group overflow-hidden">
                 <img
-                  src="/src/assets/images/thumbnail-1.jpg"
+                  src="/assets/images/thumbnail-1.jpg"
                   alt="thumbnail 1"
                   className="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
                 />
@@ -91,7 +91,7 @@ const Thumbnail = () => {
             <div className="grid grid-rows-2">
               <div className="relative w-full h-[90%] cursor-pointer group overflow-hidden">
                 <img
-                  src="/src/assets/images/thumbnail-2.jpg"
+                  src="/assets/images/thumbnail-2.jpg"
                   alt="thumbnail 1"
                   className="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
                 />
@@ -115,7 +115,7 @@ const Thumbnail = () => {
 
               <div className="relative w-full h-[90%] cursor-pointer group overflow-hidden">
                 <img
-                  src="/src/assets/images/thumbnail-3.jpg"
+                  src="/assets/images/thumbnail-3.jpg"
                   alt="thumbnail 1"
                   className="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
                 />
@@ -139,7 +139,7 @@ const Thumbnail = () => {
           <div className="grid grid-cols-3 grid-flow-row gap-4">
             <div className="relative w-full cursor-pointer group overflow-hidden">
               <img
-                src="/src/assets/images/thumbnail-4.jpg"
+                src="/assets/images/thumbnail-4.jpg"
                 alt="thumbnail 1"
                 className="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
               />
@@ -163,7 +163,7 @@ const Thumbnail = () => {
             </div>
             <div className="relative w-full cursor-pointer group overflow-hidden">
               <img
-                src="/src/assets/images/thumbnail-5.jpg"
+                src="/assets/images/thumbnail-5.jpg"
                 alt="thumbnail 1"
                 className="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
               />
@@ -183,7 +183,7 @@ const Thumbnail = () => {
 
             <div className="relative w-full cursor-pointer group overflow-hidden">
               <img
-                src="/src/assets/images/thumbnail-6.jpg"
+                src="/assets/images/thumbnail-6.jpg"
                 alt="thumbnail 1"
                 className="h-full w-full object-cover group-hover:scale-110 transition-all duration-300"
               />
@@ -227,7 +227,7 @@ const Thumbnail = () => {
             <SwiperSlide key={`content-thumbnail-${index}`}>
               <div className="relative w-full">
                 <img
-                  src={`/src/assets/images/${content.img}`}
+                  src={`/assets/images/${content.img}`}
                   alt={content.title}
                   className="h-full w-full object-cover"
                 />

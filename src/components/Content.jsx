@@ -173,7 +173,7 @@ const Content = () => {
         <div className="col-span-3">
           <div className="mb-4 ">
             <img
-              src="/src/assets/images/content-1.JPG"
+              src="/assets/images/content-1.JPG"
               alt="content img"
               className="w-full h-full object-contain"
             />
@@ -190,7 +190,7 @@ const Content = () => {
                 <SwiperSlide key={`similar-news-${i}`} className="">
                   <div className="w-full h-[130px]  relative group overflow-hidden cursor-pointer">
                     <img
-                      src={`/src/assets/images/${item.img}`}
+                      src={`/assets/images/${item.img}`}
                       alt={item.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-all duration-150"
                     />
@@ -219,7 +219,7 @@ const Content = () => {
             >
               <div className="w-full sm:w-[25%] h-[180px]">
                 <img
-                  src="/src/assets/images/content-2.jpg"
+                  src="/assets/images/content-2.jpg"
                   alt="f1 hamilton"
                   className="w-full h-full object-cover group-hover:opacity-80 transition-all duration-300"
                 />
@@ -255,7 +255,7 @@ const Content = () => {
             <div className="py-6 border-b border-gray-300 hidden sm:flex">
               <div className=" w-full h-[500px] relative group overflow-hidden cursor-pointer">
                 <img
-                  src="/src/assets/images/content-3.jpg"
+                  src="/assets/images/content-3.jpg"
                   alt="Gp Sepang"
                   className="w-full h-full object-cover group-hover:scale-105 transition-all duration-300"
                 />
@@ -296,7 +296,7 @@ const Content = () => {
                     <Link to="#" className="hover:text-red-600">
                       <div className="w-full h-[120px] mb-2">
                         <img
-                          src={`/src/assets/images/${item.img}`}
+                          src={`/assets/images/${item.img}`}
                           alt={item.title}
                           className="w-full h-full object-cover"
                         />
@@ -324,7 +324,7 @@ const Content = () => {
             >
               <div className="w-full sm:w-[25%] h-[180px]">
                 <img
-                  src="/src/assets/images/content-4.jpg"
+                  src="/assets/images/content-4.jpg"
                   alt="f1 hamilton"
                   className="w-full h-full object-cover group-hover:opacity-80 transition-all duration-300"
                 />
@@ -360,7 +360,7 @@ const Content = () => {
             >
               <div className="w-full sm:w-[25%] h-[180px]">
                 <img
-                  src="/src/assets/images/content-4.jpg"
+                  src="/assets/images/content-4.jpg"
                   alt="f1 hamilton"
                   className="w-full h-full object-cover group-hover:opacity-80 transition-all duration-300"
                 />
@@ -412,7 +412,7 @@ const Content = () => {
                     <Link to="#">
                       <div className="relative w-full h-[200px]">
                         <img
-                          src={`/src/assets/images/${item.img}`}
+                          src={`/assets/images/${item.img}`}
                           alt={item.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-all duration-150"
                         />
@@ -460,7 +460,7 @@ const Content = () => {
             <div className="py-4 border-b border-gray-300">
               <div className=" w-full h-[260px] relative group overflow-hidden cursor-pointer">
                 <img
-                  src="/src/assets/images/content-5.jpg"
+                  src="/assets/images/content-5.jpg"
                   alt="Gp Sepang"
                   className="w-full h-full object-cover group-hover:scale-105 transition-all duration-300"
                 />
@@ -489,7 +489,7 @@ const Content = () => {
               >
                 <div className="w-[34%] h-[70px]">
                   <img
-                    src={`/src/assets/images/${item.img}`}
+                    src={`/assets/images/${item.img}`}
                     alt={item.title}
                     className="w-full h-full object-cover"
                   />
@@ -595,7 +595,7 @@ const Content = () => {
                         <span>{index + 1}</span>
                         <div className="w-4 h-4">
                           <img
-                            src={`/src/assets/images/${item.img}`}
+                            src={`/assets/images/${item.img}`}
                             alt={item.team}
                             className="w-full h-full object-cover "
                           />
@@ -635,7 +635,7 @@ const Content = () => {
                         <span>{index + 1}</span>
                         <div className="w-4 h-4">
                           <img
-                            src={`/src/assets/images/${item.img}`}
+                            src={`/assets/images/${item.img}`}
                             alt={item.team}
                             className="w-full h-full object-cover "
                           />

@@ -216,7 +216,7 @@ const ScheduleResult = () => {
                     >
                       <div className="w-5 h-5">
                         <img
-                          src={`/src/assets/images/flag-${item.flag}.png`}
+                          src={`/assets/images/flag-${item.flag}.png`}
                           alt="flag belgia"
                           className="w-full h-full object-cover"
                         />
